@@ -32,4 +32,12 @@ public class User implements Serializable {
     public void setUserName(String userName) {
         this.userName = userName;
     }
+
+    public User() {
+    }
+
+    public User(String userId, String userName) {
+        this.userId = userId;
+        this.userName = userName;
+    }
 }
